@@ -1,20 +1,106 @@
 const questions = [
   {
-    question: "What is the capital of France?",
-    options: ["Berlin", "Madrid", "Paris", "Rome"],
-    correctAnswer: "Paris",
+    question: "What does MERN stand for?",
+    options: ["MongoDB, Express, React, Node", "MySQL, Express, React, Node", "MongoDB, Ember, React, Node", "MongoDB, Express, Redux, Node"],
+    correctAnswer: "MongoDB, Express, React, Node",
   },
   {
-    question: "What is the largest planet in our solar system?",
-    options: ["Earth", "Mars", "Jupiter", "Saturn"],
-    correctAnswer: "Jupiter",
+    question: "Which component of the MERN stack is used to build the user interface?",
+    options: ["MongoDB", "Node.js", "React.js", "Express.js"],
+    correctAnswer: "React.js",
   },
   {
-    question: "What is the smallest country in the world?",
-    options: ["Vatican City", "Monaco", "San Marino", "Liechtenstein"],
-    correctAnswer: "Vatican City",
+    question: "What is MongoDB?",
+    options: ["A relational database", "A NoSQL database", "A front-end framework", "A backend framework"],
+    correctAnswer: "A NoSQL database",
   },
+  {
+    question: "Which of the following is a Node.js framework?",
+    options: ["Express.js", "React.js", "Angular.js", "MongoDB"],
+    correctAnswer: "Express.js",
+  },
+  {
+    question: "Which method is used to connect MongoDB in a Node.js application?",
+    options: ["mongoConnect()", "mongoose.connect()", "connectDB()", "dbConnect()"],
+    correctAnswer: "mongoose.connect()",
+  },
+  {
+    question: "Which command creates a new React application?",
+    options: ["create-react", "npx create-react-app", "npm start react", "npm create app"],
+    correctAnswer: "npx create-react-app",
+  },
+  {
+    question: "Which HTTP method is used to update data on the server?",
+    options: ["GET", "POST", "PUT", "FETCH"],
+    correctAnswer: "PUT",
+  },
+  {
+    question: "What does JSX stand for in React?",
+    options: ["JavaScript XML", "Java Syntax Extension", "JavaScript Extension", "JavaScript XAML"],
+    correctAnswer: "JavaScript XML",
+  },
+  {
+    question: "Which of the following is used to create RESTful APIs in the MERN stack?",
+    options: ["React", "Express", "MongoDB", "Redux"],
+    correctAnswer: "Express",
+  },
+  {
+    question: "What is the default port for MongoDB?",
+    options: ["27017", "8080", "3000", "5432"],
+    correctAnswer: "27017",
+  },
+  {
+    question: "Which of these is used for routing in React?",
+    options: ["React-Router", "React-Route", "React-Navigation", "React-Links"],
+    correctAnswer: "React-Router",
+  },
+  {
+    question: "Which Node.js module is commonly used to create a server?",
+    options: ["http", "server", "express", "net"],
+    correctAnswer: "http",
+  },
+  {
+    question: "How do you send data to an API using React?",
+    options: ["fetch()", "getData()", "sendData()", "post()"],
+    correctAnswer: "fetch()",
+  },
+  {
+    question: "Which of the following is used to manage global state in React?",
+    options: ["Redux", "Express", "Node", "MongoDB"],
+    correctAnswer: "Redux",
+  },
+  {
+    question: "What is the purpose of `useState` in React?",
+    options: ["To connect to the database", "To update the backend", "To manage state in functional components", "To style components"],
+    correctAnswer: "To manage state in functional components",
+  },
+  {
+    question: "Which middleware in Express.js is used to parse incoming JSON data?",
+    options: ["body-parser", "json-parser", "data-parser", "express-json"],
+    correctAnswer: "body-parser",
+  },
+  {
+    question: "Which keyword is used in Node.js to import a module?",
+    options: ["import", "require", "include", "load"],
+    correctAnswer: "require",
+  },
+  {
+    question: "How do you define a schema in MongoDB using Mongoose?",
+    options: ["mongoose.schema()", "mongoose.Schema()", "mongo.Schema()", "Schema.mongoose()"],
+    correctAnswer: "mongoose.Schema()",
+  },
+  {
+    question: "What does `npm` stand for?",
+    options: ["Node Programming Manager", "Node Package Manager", "New Project Manager", "Network Package Manager"],
+    correctAnswer: "Node Package Manager",
+  },
+  {
+    question: "Which of the following is a hook in React?",
+    options: ["useData()", "useFetch()", "useEffect()", "getData()"],
+    correctAnswer: "useEffect()",
+  }
 ];
+
 
 const questionsE1 = document.getElementById("question");
 const optionsE1 = document.getElementById("options");
