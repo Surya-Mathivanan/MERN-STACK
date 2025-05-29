@@ -117,7 +117,7 @@ let currentQuestion = 0;
 let suffledQuestions = suffleArray([...questions]);
 let selectedOption = null;
 let userScore = 0;
-let timerDuration = 10; // Total quiz time (all questions) in seconds
+let timerDuration = 120; // Total quiz time (all questions) in seconds
 let timerInterval;
 
 function startQuiz() {
