@@ -6,7 +6,11 @@ Over the last 2 weeks, I have been learning the **MERN Stack** and covered the *
 
 This repository contains:
 - Basic MERN stack practice code
-- QuizzApp project files 
+- QuizzApp project files
+
+  ## PDF Overview:
+
+  [_Quiz Application.pdf](https://github.com/user-attachments/files/21146445/_Quiz.Application.pdf)
 
 ## 🔗 Live Project
 
